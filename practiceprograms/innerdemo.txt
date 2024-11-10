@@ -1,0 +1,28 @@
+class outer 
+{
+   int x=30;
+   class inner
+     {
+        void disp()
+          { 
+             System.out.println("inner class"+x);
+          }
+     }
+   void show()
+     {
+          
+    innner i = new inner();
+    i.disp();
+     }
+  }
+
+class innerdemo
+{
+   public static void main(String args[])
+    {
+        outer o = new outer();
+        o.show();
+        outer.inner obj2 = new inner();
+        obj.disp();
+    }
+}

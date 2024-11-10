@@ -1,0 +1,22 @@
+class Number
+{
+    int a,b;
+    void display()
+    {
+        System.out.println(a+" "+b);
+    }
+}
+
+class CDemo  // MainClass
+{
+    public static void main(String args[])
+    {
+        Number obj = new Number();
+        obj.a=80;
+        obj.b=40;
+        obj.display();
+    }
+}
+
+        
+    
